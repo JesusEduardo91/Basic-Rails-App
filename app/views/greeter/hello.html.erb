@@ -1,0 +1,7 @@
+
+<h1>Greeting, <%=@name %></h1>
+<p>The Time now is <%= formatted_time(@time) %></p>
+<p> this page has benn viewed <%= @time_displayed %> time(s)</p>
+
+<p><%= link_to "google", "http://www.google.es" %></p>
+<p><%= link_to "goodbye", greeter_goodbye_path %></p> <!--mirar la columna prefix de el comando rake routes-->
